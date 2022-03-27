@@ -9,6 +9,7 @@ public class ex002
         operadores();
         System.out.println("Aritmetico");
         aritmetico();
+        
     }
 
 
@@ -72,35 +73,35 @@ private static void operadores()
 
         System.out.print("Digite sua idade:  ");
         String idade = input.nextLine();
-        System.out.println(nome + " Você é lindo");
+        System.out.println(idade +nome + " Você é lindo");
     }
 
 }
 
 
 private static void aritmetico()
-{
+    {
 
-    int a = 10;
-    int b = 20;
-    int c = 30;
-    int d = 40;
-    int e = 50;
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        int d = 40;
+        int e = 50;
 
-    int r1 = a + b;
-    int r2 = c - a;
-    int r3 = d * b;
-    int r4 = e / a;
-    int r5 = c % b;
+        int r1 = a + b;
+        int r2 = c - a;
+        int r3 = d * b;
+        int r4 = e / a;
+        int r5 = c % b;
 
-    System.out.println("a+b = " + r1);
-    System.out.println("c-a = " + r2);
-    System.out.println("d*b = " + r3);
-    System.out.println("e/a = " + r4);
-    System.out.println("c%b = " + r5);
+        System.out.println("a+b = " + r1);
+        System.out.println("c-a = " + r2);
+        System.out.println("d*b = " + r3);
+        System.out.println("e/a = " + r4);
+        System.out.println("c%b = " + r5);
         
 
-}
+    }
 }
 
 
