@@ -11,7 +11,7 @@ public class OlaMundo {
         
         /*
         byte e = 127; // 8 bits==1Byte.... 2^8 -128-127
-        short f = 10; // 16 bits  2^16 -32000...32000 
+        short f = 10; // 16 bits  2^16  -32000...32000 
         int num1 = 124;// 32 bits
         long num2 = 13;// 64 bits
         long totalMilliSegundos =  System.currentTimeMillis();
@@ -51,7 +51,7 @@ public class OlaMundo {
 
         num5=Math.hypot(num1, num2);
 
-        numero = Integer.toString(num1);
+        num1 = Integer.parseInt(numero);
 
         System.out.println(numero);
     }
