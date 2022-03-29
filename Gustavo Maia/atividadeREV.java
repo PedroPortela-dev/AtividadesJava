@@ -73,7 +73,7 @@ public class atividade1 {
             recebe2.nextLine();
         
         int a2F = (int) ((Math.pow(((1 + Math.sqrt(5))/2), a2) - Math.pow(((1 - Math.sqrt(5))/2), a2))/Math.sqrt(5));
-        int aF = (int) ((Math.pow(((1 + Math.sqrt(5))/2), a) - Math.pow(((1 - Math.sqrt(5))/2), a2))/Math.sqrt(5));
+        int aF = (int) ((Math.pow(((1 + Math.sqrt(5))/2), a) - Math.pow(((1 - Math.sqrt(5))/2), a))/Math.sqrt(5));
 
         System.out.println("A posição "+a2+" na sequência Fibonnaci é: "+a2F);
         System.out.println("A posição "+a+" na sequência Fibonnaci é: "+aF);
