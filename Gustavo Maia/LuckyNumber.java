@@ -25,7 +25,6 @@ public class LuckyNumber {
         int LuckyNumber = (int) (Math.random() * (valormaximo - valorminimo) + valorminimo);
         int tentativas = 1;
         int n1;
-        String n1srt;
         System.out.println("\n\nELE ESTÁ ENTRE "+valorminimo+" e "+valormaximo+"...");
 
         System.out.println("\nChute um número entre "+valorminimo+" e "+valormaximo+":");
