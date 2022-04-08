@@ -24,8 +24,8 @@ public class LuckyNumber {
         int valorminimo = (int) gerador.nextInt(valormaximo - intervalo) + 1;
         int LuckyNumber = (int) (Math.random() * (valormaximo - valorminimo) + valorminimo);
         int tentativas = 1;
+        int acertos = 0;
         int n1;
-        String n1srt;
         System.out.println("\n\nELE ESTÁ ENTRE "+valorminimo+" e "+valormaximo+"...");
 
         System.out.println("\nChute um número entre "+valorminimo+" e "+valormaximo+":");
@@ -46,14 +46,22 @@ public class LuckyNumber {
         } while (n1 != LuckyNumber && tentativas != 6);
 
         if (n1 == LuckyNumber) {
-            System.out.println("\nVOCÊ ACERTOU!!!!! SEU PRÊMIO É UM COOKIE! O número era: "+LuckyNumber);
+            System.out.println("\nVOCÊ ACERTOU!!!!! SEU PRÊMIO É UM COOKIE!");
+            System.out.println("O número da sorte era: "+LuckyNumber);
+            acertos++;
         } else if (tentativas == 6) {
             System.out.println("\nEND GAME!");
             System.out.println("Suas tentativas acabaram, mais sorte na próxima!");
+            System.out.println("O número da sorte era: "+LuckyNumber);
         }    
         Scanner recebe = new Scanner(System.in);
-        System.out.println("\nTentar novamente? [S]im ou [N]ão?");
+        System.out.println("\nJogar de novo? [S]im ou [N]ão?");
             resposta = recebe.nextLine();
+        
+        if (resposta.equalsIgnoreCase("N")) {
+            System.out.println("\nEND GAME!");
+            System.out.println("Você acertou "+acertos+" número(s) da sorte!");
+        }
         } while (resposta.equalsIgnoreCase("S"));    
     }
 }
