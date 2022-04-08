@@ -45,10 +45,12 @@ public class LuckyNumber {
         } while (n1 != LuckyNumber && tentativas != 6);
 
         if (n1 == LuckyNumber) {
-            System.out.println("\nVOCÊ ACERTOU!!!!! SEU PRÊMIO É UM COOKIE! O número era: "+LuckyNumber);
+            System.out.println("\nVOCÊ ACERTOU!!!!! SEU PRÊMIO É UM COOKIE!");
+            System.out.println("O número da sorte era: "+LuckyNumber);
         } else if (tentativas == 6) {
             System.out.println("\nEND GAME!");
             System.out.println("Suas tentativas acabaram, mais sorte na próxima!");
+            System.out.println("O número da sorte era: "+LuckyNumber);
         }    
         Scanner recebe = new Scanner(System.in);
         System.out.println("\nTentar novamente? [S]im ou [N]ão?");
