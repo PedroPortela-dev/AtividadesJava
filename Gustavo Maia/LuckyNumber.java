@@ -53,7 +53,7 @@ public class LuckyNumber {
             System.out.println("O número da sorte era: "+LuckyNumber);
         }    
         Scanner recebe = new Scanner(System.in);
-        System.out.println("\nTentar novamente? [S]im ou [N]ão?");
+        System.out.println("\nJogar de novo? [S]im ou [N]ão?");
             resposta = recebe.nextLine();
         } while (resposta.equalsIgnoreCase("S"));    
     }
