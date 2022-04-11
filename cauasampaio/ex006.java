@@ -15,12 +15,12 @@ public class ex006
         System.out.print("Digite um número: ");                                                                             
         int b = input.nextInt();                                                                                
 
-        System.out.println("AGORA SELECIONE UMA OPERACAO: ");                                                                       
-        System.out.println("\n\n[1] Soma") ;                                                                            
-        System.out.println("[2] Subtração");                                                                                          
-        System.out.println("[3] Multiplicação");                                                                               
-        System.out.println("[4] Divisão ");                                                                      
-        System.out.println("------------------------- Digite uma opcao ---------------------------------");
+        System.out.println("selecione uma operação: ");                                                                       
+        System.out.println("\n\n [1] Soma") ;                                                                            
+        System.out.println("\n\n [2] Subtração");                                                                                          
+        System.out.println("\n\n [3] Multiplicação");                                                                               
+        System.out.println("\n\n [4] Divisão ");                                                                      
+        System.out.println("------------------------- Selecione uma das opções ---------------------------------");
 
 
         int opc = input.nextInt();
