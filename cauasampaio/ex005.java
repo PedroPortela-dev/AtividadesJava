@@ -6,7 +6,7 @@ public class ex005
         int n2 = 0;
         int aux;
 
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 5; i++)
         {
             System.out.println(n1);
             aux = n1; 
