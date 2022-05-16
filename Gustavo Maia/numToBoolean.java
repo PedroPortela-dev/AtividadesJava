@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class numToBoolean {
+public class NumToBoolean {
     
     public static boolean numToBoolean(int p) {
         boolean portelaBooleanado = true;
